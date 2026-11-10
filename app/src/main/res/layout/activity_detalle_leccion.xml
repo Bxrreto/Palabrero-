@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#F8FAFC">
+
+    <TextView
+        android:id="@+id/txtTituloDetalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Título de la Lección"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#1E293B"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/txtContenidoDetalle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contenido recuperado de la base de datos local SQLite..."
+        android:textSize="16sp"
+        android:textColor="#475569"
+        android:lineSpacingExtra="6dp"/>
+
+</LinearLayout>

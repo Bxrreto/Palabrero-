@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="#F8FAFC">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LECCIONES OFFLINE"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#1E293B"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Módulos cargados desde la base de datos local SQLite"
+        android:textSize="13sp"
+        android:textColor="#64748B"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btnModulo1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MÓDULO 1: VOCALES Y SONIDOS"
+        android:backgroundTint="#3B82F6"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnModulo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MÓDULO 2: CONSONANTES BÁSICAS"
+        android:backgroundTint="#3B82F6"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
